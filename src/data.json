@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "logo": "Ahmed Abdulla",
+    "links": [
+      {
+        "title": "Contact",
+        "url": "mailto:aaa384@cornell.edu"
+      }
+    ]
+  },
+
+  "intro": {
+    "heading": "Computer Science undergrad at <span class='italic  text-[#A80000]'>Cornell</span>, building modern <span class='italic'>digital</span> experiences.",
+    "icon": "/icons/intro-icon.svg"
+  },
+   
+  "portrait": {
+    "image": "/ahmed.png"
+  },
+
+  "about": {
+    "text": "I'm a software engineer and entrepreneur with a strong focus on product development, data-driven decision-making, and machine learning. My work spans software development, business strategy, and financial technology.",
+    "icon": "/icons/about-icon.svg"
+  },
+
+  "contact": {
+    "label": "Want to collaborate?",
+    "heading": "Let’s <span class='italic'>connect</span>",
+    "linkIcon": "/icons/arrow-icon.svg",
+    "email": "aaa384@cornell.edu"
+  },
+
+  "work": {
+    "projects": [
+      {
+        "title": "Iconectiv",
+        "url": "https://iconectiv.com/",
+        "media": "/iconectiv.webp"
+      },
+      
+      {
+        "title": "Cornell Data Strategy",
+        "url": "https://cornelldata.com",
+        "media": "/cds.png"
+      },
+      {
+        "title": "Dalia Health",
+        "url": "https://daliahealth.com",
+        "media": "/dalia.png"
+      },
+      {
+        "title": "Kairo",
+        "url": "https://github.com/ahmed-52/kairo",
+        "media": "/kairo.png"
+      }
+    ],
+    "linkIcon": "/icons/arrow-icon-black.svg"  
+  },
+
+  "socials": {
+    "links": [
+      {
+        "title": "Resume",
+        "url": "https://drive.google.com/file/d/1gIu5UMAQmQ9EHRMJgOgCtM_IdYWQCKxv/view?usp=sharing"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ahmed-abdulla-1aa908253/" },
+      {
+        "title": "Github",
+        "url": "https://github.com/ahmed-52"
+      }
+    ]
+  }
+}
