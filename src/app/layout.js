@@ -4,8 +4,7 @@ import './globals.css';
 
 export const metadata = {
   title: 'Ahmed Abdulla',
-  description:
-    '',
+  description: '',
 };
 
 const fontHeading = DM_Serif_Display({
@@ -25,8 +24,26 @@ const fontBody = DM_Sans({
 });
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ahmed Abdulla",
+    "url": "https://ahmedabdulla.dev/",
+    "sameAs": [
+      "https://www.linkedin.com/in/ahmed-abdulla-1aa908253"
+    ],
+    "jobTitle": "Information Science Undergraduate",
+    "affiliation": "Cornell University"
+  };
+
   return (
     <html lang='en' className='hide-scrollbar'>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${fontHeading.variable} ${fontBody.variable} antialiased`}
       >
